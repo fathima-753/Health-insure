@@ -1,0 +1,80 @@
+
+  .claim-form-wrapper {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    color: #333;
+  } 
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top:40px;
+    color: #fff;
+  } 
+  .error {
+    color: #ff4d4d;
+    background: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .success {
+    color: #4caf50;
+    background: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 9px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color:"white";
+  }
+  
+  input[type="text"],
+  textarea,
+  input[type="number"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #0056b3;
+  }
+  

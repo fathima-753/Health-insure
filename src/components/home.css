@@ -1,0 +1,52 @@
+html{
+  background: url('featured-2.jpg');
+
+}
+.home-container {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-overlay {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+    opacity:0.9;
+    margin-top: 65px;
+    box-shadow: 0 2px 4ch rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #e63946;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: #01060e;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    color:black;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .create-account-btn {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-account-btn:hover {
+    background-color: #d62839;
+  }
